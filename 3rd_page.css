@@ -1,0 +1,403 @@
+*{
+    box-sizing: border-box;
+    overflow: visible;
+}
+.body {
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        margin: 0;
+}
+.logo {
+    display: inline-flex;
+padding: 32px 64px;
+align-items: flex-start;
+gap: 10px;
+    color: #C15A53;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.00);
+    font-family: "Princess Sofia";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+nav {
+    position: relative;
+    left: 39%;
+    display: inline-flex;
+    align-items: left;
+    gap: 64px;
+}
+ul{
+ display: flex;
+align-items: flex-start;
+list-style-type: none;
+gap: 48px;
+color: #C15A53;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+a{
+    color: #C15A53;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+
+.lastimage {
+    padding: 2rem;
+    border: none;
+    position: relative;
+    left: 5rem;
+}
+
+.roww1 {
+    display: flex;
+}
+
+.part2 {
+    position: relative;
+    left: 8rem;
+
+}
+
+.pargraphhh {
+    color: black;
+    margin-top: 1.5rem;
+    margin-bottom: 0px;
+    position: relative;
+    left: -16rem;
+    color: var(--Neutral-500, #1A1E26);
+    text-align: center;
+    font-family: italic;
+    font-size: 2rem;
+    font-style: normal;
+    line-height: 150%;
+}
+
+.ttextt {
+    position: relative;
+    left: 7rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+
+}
+
+.textt2 {
+    position: relative;
+    margin: 6px;
+
+}
+
+.textt3 {
+    position: relative;
+    left: -11rem;
+    font-size: larger;
+    line-height: 1.5rem;
+    margin-bottom: 3px;
+}
+
+.bigflex {
+    display: flex;
+}
+
+hr {
+    border-bottom: #717378 1px solid;
+    margin-top: 0;
+    position: relative;
+    left: -3.5rem;
+}
+
+.flex {
+    display: flex;
+    position: relative;
+    top: 2.5rem;
+    left: -4.5rem;
+}
+
+.Addcart {
+    display: flex;
+    width: 169px;
+    height: 44px;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    border: 1px solid #9E514B;
+    background: #9E514B;
+    margin: 1rem;
+}
+
+.cartt2 {
+    display: flex;
+    position: relative;
+    top: 2.5rem;
+    left: -4.5rem;
+    display: flex;
+    width: 169px;
+    height: 44px;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    border: 1px solid #C15A53;
+    background: #F8F7F9;
+    margin: 1rem;
+}
+
+.alldelivery {
+    display: flex;
+    position: relative;
+    left: .5rem;
+    top: -1rem;
+    margin-top: .5;
+    margin-bottom: 0px;
+    padding: 6px;
+    border-bottom: #717378 1px solid;
+    height: 87px;
+    width: 460px;
+}
+
+.deliverylogo {
+    margin: 1rem;
+    position: relative;
+    top: 1rem;
+}
+
+#Enter {
+    position: relative;
+    top: -.5rem;
+}
+
+.pp {
+    color: #1A1E26;
+    font-size: 1rem;
+    font-size: large;
+}
+
+#p1 {
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+    top: .5rem;
+}
+
+.alllphone {
+    display: flex;
+    position: relative;
+    left: .5rem;
+    top: -2rem;
+    margin-top: .5;
+
+}
+
+.phoneelogo {
+    margin: 1rem;
+    position: relative;
+    top: .7rem;
+    left: .7rem;
+    width: 33.148px;
+    height: 33.214px;
+
+}
+
+.pp2 {
+    color: #1A1E26;
+    font-size: 1rem;
+    font-size: large;
+}
+
+#bold {
+    font-weight: bold;
+    font-size: larger;
+    position: relative;
+    left: 1rem;
+}
+
+#call {
+    position: relative;
+    left: 1rem;
+    top: -1rem;
+}
+
+.del {
+    color: #717378;
+}
+
+
+
+.part1 {
+    width: 80vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.Service {
+    /* border: #717378 1px solid;
+    width: 400px; */
+    border-radius: 4px;
+    border: 1px solid #9D9EA2;
+    width: 470px;
+    height: 140px;
+    flex-shrink: 0;
+    position: relative;
+    right: 30rem;
+    bottom: -10rem;
+    
+}
+
+.all {
+    position: relative;
+    top: -17rem;
+    left: -4rem;
+}
+.row1 {
+    display: grid;
+    grid-template-columns: 500px 300px 300px;
+
+    gap: 100px;
+    padding: 5rem;
+    padding: 0;
+    margin: 3rem;
+}
+
+.pre1 {
+    position: relative;
+    left: -4.5rem;
+}
+
+.col1 {
+    color: var(--Neutral-200, #9D9EA2);
+
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.col2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+    color: var(--Neutral-200, #9D9EA2);
+    font-family: Lexend;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+#ul1 {
+    list-style: none;
+
+}
+
+.col3 {
+    display: flex;
+    width: 379px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    color: var(--Neutral-200, #9D9EA2);
+
+
+    font-family: Lexend;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+
+}
+
+#ul2 {
+    list-style: none;
+}
+
+.link {
+    color: var(--Neutral-200, #9D9EA2);
+
+    font-family: Lexend;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    text-align: center;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+
+}
+
+.col4 {
+    position: relative;
+    left: 40rem;
+    color: var(--Neutral-200, #9D9EA2);
+    font-family: Lexend;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+#ul3 {
+    list-style: none;
+}
+
+.col5 {
+    color: var(--Neutral-200, #9D9EA2);
+    font-family: Lexend;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    position: relative;
+    left: 34rem;
+}
+
+#ul5 {
+    list-style: none;
+}
+
+.row3 {
+    display: grid;
+    grid-template-columns: 500px 500px 500px 500px;
+    padding: 1rem;
+}
+
+.col6 {
+    color: var(--Neutral-300, #717378);
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: .6rem
+}
+
+.col7 {
+
+    grid-column-start: 3;
+    grid-column-end: 5;
+    color: var(--Neutral-200, #9D9EA2);
+    font-family: Lexend;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
